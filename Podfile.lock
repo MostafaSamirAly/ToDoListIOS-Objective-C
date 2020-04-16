@@ -1,0 +1,16 @@
+PODS:
+  - DownPicker (0.1.34)
+
+DEPENDENCIES:
+  - DownPicker
+
+SPEC REPOS:
+  trunk:
+    - DownPicker
+
+SPEC CHECKSUMS:
+  DownPicker: c00ea63f08ae82116cc93d0eba74e86bf3d4c68e
+
+PODFILE CHECKSUM: b93015ed7a8b35449511f237767c09dcd84b23f0
+
+COCOAPODS: 1.8.4
