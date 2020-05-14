@@ -14,9 +14,6 @@
 		BF61533423A4FCA4002AEA5A /* PrioritySort.m in Sources */ = {isa = PBXBuildFile; fileRef = BF61533323A4FCA4002AEA5A /* PrioritySort.m */; };
 		BF7A3E9C23A3A883004ABC54 /* EditingTaskVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7A3E9B23A3A883004ABC54 /* EditingTaskVC.m */; };
 		BF7A3E9F23A3BB7D004ABC54 /* InProgressVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7A3E9E23A3BB7D004ABC54 /* InProgressVC.m */; };
-		BF7CB99923A301F900E23726 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = BF7CB99523A301F800E23726 /* 2.png */; };
-		BF7CB99A23A301F900E23726 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = BF7CB99623A301F800E23726 /* 1.png */; };
-		BF7CB99B23A301F900E23726 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = BF7CB99723A301F800E23726 /* 3.png */; };
 		BF8689EE23A29B9700335259 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8689ED23A29B9700335259 /* AppDelegate.m */; };
 		BF8689F123A29B9700335259 /* AddTask.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8689F023A29B9700335259 /* AddTask.m */; };
 		BF8689F423A29B9700335259 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF8689F223A29B9700335259 /* Main.storyboard */; };
@@ -42,9 +39,6 @@
 		BF7A3E9B23A3A883004ABC54 /* EditingTaskVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditingTaskVC.m; sourceTree = "<group>"; };
 		BF7A3E9D23A3BB7D004ABC54 /* InProgressVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InProgressVC.h; sourceTree = "<group>"; };
 		BF7A3E9E23A3BB7D004ABC54 /* InProgressVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InProgressVC.m; sourceTree = "<group>"; };
-		BF7CB99523A301F800E23726 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
-		BF7CB99623A301F800E23726 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
-		BF7CB99723A301F800E23726 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
 		BF8689E923A29B9700335259 /* MiniProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF8689EC23A29B9700335259 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BF8689ED23A29B9700335259 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -120,17 +114,6 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		BF303F8623AF9DCB007A425C /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				BF7CB99623A301F800E23726 /* 1.png */,
-				BF8689F523A29B9A00335259 /* Assets.xcassets */,
-				BF7CB99723A301F800E23726 /* 3.png */,
-				BF7CB99523A301F800E23726 /* 2.png */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
 		BF8689E023A29B9700335259 = {
 			isa = PBXGroup;
 			children = (
@@ -152,7 +135,6 @@
 		BF8689EB23A29B9700335259 /* MiniProject */ = {
 			isa = PBXGroup;
 			children = (
-				BF303F8623AF9DCB007A425C /* Resources */,
 				BF303F8523AF9D9D007A425C /* Controllers */,
 				BF303F8423AF9D6B007A425C /* Views */,
 				BF303F8323AF9D3B007A425C /* Models */,
@@ -160,6 +142,7 @@
 				BF8689ED23A29B9700335259 /* AppDelegate.m */,
 				BF8689FA23A29B9A00335259 /* Info.plist */,
 				BF8689FB23A29B9A00335259 /* main.m */,
+				BF8689F523A29B9A00335259 /* Assets.xcassets */,
 			);
 			path = MiniProject;
 			sourceTree = "<group>";
@@ -234,10 +217,7 @@
 			files = (
 				BF8689F923A29B9A00335259 /* LaunchScreen.storyboard in Resources */,
 				BF8689F623A29B9A00335259 /* Assets.xcassets in Resources */,
-				BF7CB99923A301F900E23726 /* 2.png in Resources */,
-				BF7CB99B23A301F900E23726 /* 3.png in Resources */,
 				BF8689F423A29B9700335259 /* Main.storyboard in Resources */,
-				BF7CB99A23A301F900E23726 /* 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

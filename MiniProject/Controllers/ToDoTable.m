@@ -18,7 +18,7 @@
 @end
 
 @implementation ToDoTable{
-     UIAlertView *alert;
+    UIAlertView *alert;
     NSMutableArray *todo;
     NSMutableArray *filtered;
     int deleteFlag;
